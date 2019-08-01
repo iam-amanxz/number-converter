@@ -51,7 +51,7 @@ body {
 
 .heading--primary {
   font-size: 5rem;
-  color: #f7931e;
+  color: #1ef71e;
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -67,9 +67,9 @@ body {
 }
 
 .heading--secondary {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 500;
-  color: #3e1ef7;
+  color: #cff71e;
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -80,7 +80,7 @@ body {
 
 @media only screen and (max-width: 37.5em) {
   .heading--secondary {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -120,8 +120,8 @@ body {
 
 .wrapper {
   height: 100vh;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.8))), url(/images/background-image.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(/images/background-image.jpg);
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(3, 6, 19, 0.95)), to(rgba(8, 14, 39, 0.95))), url(/images/background-image.jpg);
+  background-image: linear-gradient(to left, rgba(3, 6, 19, 0.95), rgba(8, 14, 39, 0.95)), url(/images/background-image.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -147,7 +147,7 @@ body {
 }
 
 .content input {
-  background: rgba(0, 0, 0, 0.7);
+  background: #050013;
   border: none;
   border-radius: 1rem;
 }
@@ -155,7 +155,9 @@ body {
 .content h2 {
   display: inline-block;
   width: 5rem;
-  background: rgba(255, 174, 0, 0.7);
+  background: #af1928;
+  background-image: -webkit-gradient(linear, right top, left top, from(#af19288c), to(#af196b91));
+  background-image: linear-gradient(to left, #af19288c, #af196b91);
   border-radius: 1rem;
 }
 

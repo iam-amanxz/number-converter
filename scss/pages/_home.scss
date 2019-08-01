@@ -1,8 +1,11 @@
 .wrapper {
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
+  background-image: linear-gradient(
+      to left,
+      rgba(3, 6, 19, 0.95),
+      rgba(8, 14, 39, 0.95)
+    ),
     url(/images/background-image.jpg);
-
   background-size: cover;
   background-position: center;
 }
@@ -16,14 +19,15 @@
     margin: 0;
   }
   input {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgb(5, 0, 19);
     border: none;
     border-radius: 1rem;
   }
   h2 {
     display: inline-block;
     width: 5rem;
-    background: rgba(255, 174, 0, 0.7);
+    background: #af1928;
+    background-image: linear-gradient(to left, #af19288c, #af196b91);
     border-radius: 1rem;
     @include respond(sm-phone) {
       display: block;
