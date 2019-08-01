@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="/css/main.css" />
+    <!-- Site Favicon -->
+    <link rel="icon" href="" />
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/df8fde483e.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="heading">
+          <div>
+            <h1 class="heading--primary">Computer Number System Converter</h1>
+          </div>
+          <div>
+            <h2 class="heading--secondary">
+              Enter a value to find its binary, octal, decimal and hex values
+            </h2>
+          </div>
+        </div>
+        <div class="content">
+          <div class="div">
+            <input id="bin" oninput="Convert('bin', 2)" spellcheck="false" />
+            <h2>2</h2>
+          </div>
+          <div class="div">
+            <input id="oct" oninput="Convert('oct', 8)" spellcheck="false" />
+            <h2>8</h2>
+          </div>
+          <div class="div">
+            <input id="dec" oninput="Convert('dec', 10)" spellcheck="false" />
+            <h2>10</h2>
+          </div>
+          <div class="div">
+            <input id="hex" oninput="Convert('hex', 16)" spellcheck="false" />
+            <h2>16</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Client side Scripts -->
+    <script src="/js/app.js"></script>
+  </body>
+</html>
